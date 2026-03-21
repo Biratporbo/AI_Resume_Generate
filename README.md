@@ -46,30 +46,19 @@ Prompt processing using JSON resume schema
 ---
 
 ## 🏗️ Tech Stack
-### Backend
 
-Spring Boot (Spring AI)
+### 🚀 Backend
+![Backend](https://skillicons.dev/icons?i=spring,java)
 
-Ollama (local LLM)
+![Ollama](https://img.shields.io/badge/Ollama-black?style=flat-square)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-purple?style=flat-square)
+![OpenAI](https://img.shields.io/badge/OpenAI-darkgreen?style=flat-square&logo=openai)
 
-DeepSeek / OpenAI GPT APIs
+### 🎨 Frontend
+![Frontend](https://skillicons.dev/icons?i=react,tailwind,js)
 
-REST API
-
-Resume Storage Module
-
-### Frontend
-
-React.js
-
-Tailwind CSS
-
-DaisyUI
-
-Axios
-
-Fully responsive modern UI
-
+![DaisyUI](https://img.shields.io/badge/DaisyUI-purple?style=flat-square)
+![Axios](https://img.shields.io/badge/Axios-blueviolet?style=flat-square)
 ---
 
 ## 🧠 AI Prompt Format (Used for Resume Generation)
