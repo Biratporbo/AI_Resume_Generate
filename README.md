@@ -4,8 +4,10 @@ An intelligent, end-to-end AI-powered Resume Generator and ATS Analyzer built us
 
 This project transforms a simple user prompt into a fully structured JSON-based resume format, allowing users to edit, preview, and download their resumes.
 
+---
+
 ## ✨ Features
-# 🔹 AI-Driven Resume Generation
+### 🔹 AI-Driven Resume Generation
 
 Enter a detailed description about yourself
 
@@ -13,7 +15,7 @@ AI converts the description into a clean, structured resume
 
 Generates summary, skills, experience, education, and projects
 
-# 🔹 ATS Score Analyzer
+### 🔹 ATS Score Analyzer
 
 Upload a resume PDF
 
@@ -23,7 +25,7 @@ Highlights required skills
 
 Suggests improvements
 
-# 🔹 Interactive Resume Builder UI
+### 🔹 Interactive Resume Builder UI
 
 Auto-filled resume form
 
@@ -31,7 +33,7 @@ Editable fields
 
 Modern UI using React, TailwindCSS, DaisyUI
 
-# 🔹 Backend Powered by Cutting-Edge AI
+### 🔹 Backend Powered by Cutting-Edge AI
 
 Spring Boot + Spring AI
 
@@ -41,8 +43,10 @@ Resume storage + generation
 
 Prompt processing using JSON resume schema
 
+---
+
 ## 🏗️ Tech Stack
-# Backend
+### Backend
 
 Spring Boot (Spring AI)
 
@@ -54,7 +58,7 @@ REST API
 
 Resume Storage Module
 
-# Frontend
+### Frontend
 
 React.js
 
@@ -66,9 +70,13 @@ Axios
 
 Fully responsive modern UI
 
+---
+
 ## 🧠 AI Prompt Format (Used for Resume Generation)
 
 "I am a Java Developer with 2 years of experience in building scalable backend applications using Spring Boot and Microservices. I have expertise in MySQL, and MongoDB. I am proficient in AWS and Docker for cloud deployments. I have worked at ABC Tech as a Software Engineer . I hold a Bachelor's degree in Computer Application. I have built an Expense Management System using Spring Boot and React.js. I am AWS Certified Solutions Architect and passionate about open-source contributions."
+
+---
 
 ## 📸 Screenshots
 
@@ -90,6 +98,8 @@ Fully responsive modern UI
 ### 📄 Final Resume Preview
 ![GenerateResumepage](./screenshots/generate_resume.png)
 
+---
+
 ## ⚙️ How It Works
 
 1. User enters description
@@ -105,6 +115,8 @@ Fully responsive modern UI
 
 6. AI suggests improvements + missing skills
 
+---
+
 ## 🏁 How to Run the Project
 ### Backend Setup
 cd backend
@@ -115,10 +127,15 @@ cd frontend
 npm install
 npm start
 
-### 🤝 Contributions
+---
+
+## 🤝 Contributions
 
 Pull requests are welcome!
+
 Feel free to open issues for new feature suggestions or bug reports.
+
+---
 
 ## 📜 License
 
