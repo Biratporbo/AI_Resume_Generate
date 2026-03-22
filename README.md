@@ -7,41 +7,52 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 ---
 
 ## ✨ Features
-### 🔹 AI-Driven Resume Generation
 
-Enter a detailed description about yourself
+### 🧠 AI Resume Generation Engine
+<p align="center"> <img src="https://img.shields.io/badge/AI-Content%20Generation-black?style=for-the-badge&logo=openai"> <img src="https://img.shields.io/badge/Output-Structured%20Resume-success?style=for-the-badge"> </p>
 
-AI converts the description into a clean, structured resume
++ Describe yourself in natural language
++ AI transforms input into a professional resume
++ Generates:
+    → Summary
+    → Skills
+    → Experience
+    → Education
+    → Projects
++ Clean, ATS-friendly structure
 
-Generates summary, skills, experience, education, and projects
+### 🔍 ATS Score Analyzer
+<p align="center"> <img src="https://img.shields.io/badge/ATS-Score%20Analysis-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/PDF-Parsing-critical?style=for-the-badge"> </p>
 
-### 🔹 ATS Score Analyzer
++ Upload resume (PDF format)
++ AI evaluates ATS compatibility score
++ Extracts and analyzes key skills
++ Identifies missing keywords
++ Suggests targeted improvements
 
-Upload a resume PDF
+### 🎨 Interactive Resume Builder UI
+<p align="center"> <img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react"> <img src="https://img.shields.io/badge/UI-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css"> <img src="https://img.shields.io/badge/Components-DaisyUI-purple?style=for-the-badge"> </p>
 
-AI evaluates ATS score
++ Auto-filled resume fields using AI
++ Fully editable form interface
++ Live preview experience
++ Responsive & modern UI design
++ Smooth UX with component-based architecture
 
-Highlights required skills
+### ⚙️ AI-Powered Backend System
+<p align="center"> <img src="https://img.shields.io/badge/Backend-Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot"> <img src="https://img.shields.io/badge/AI-Spring%20AI-orange?style=for-the-badge"> </p>
 
-Suggests improvements
++ Built with Spring Boot + Spring AI
++ Multi-LLM integration:
+    → Ollama
+    → DeepSeek
+    → ChatGPT APIs
++ Resume storage & regeneration
++ JSON-based resume schema processing
++ Intelligent prompt orchestration layer
 
-### 🔹 Interactive Resume Builder UI
-
-Auto-filled resume form
-
-Editable fields
-
-Modern UI using React, TailwindCSS, DaisyUI
-
-### 🔹 Backend Powered by Cutting-Edge AI
-
-Spring Boot + Spring AI
-
-Uses Ollama, DeepSeek, ChatGPT APIs
-
-Resume storage + generation
-
-Prompt processing using JSON resume schema
+### 🌟 System Capabilities Overview
+<p align="center"> <img src="https://img.shields.io/badge/Smart-AI%20Driven-critical?style=for-the-badge"> <img src="https://img.shields.io/badge/Fast-RealTime-success?style=for-the-badge"> <img src="https://img.shields.io/badge/Scalable-Architecture-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/UX-Modern%20Design-blueviolet?style=for-the-badge"> </p>
 
 ---
 
