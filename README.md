@@ -165,6 +165,9 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 ```
 </td> </tr> </table>
 
+### ⚡ Workflow Highlights
+<p align="center"> <img src="https://img.shields.io/badge/AI-Automation-00f7ff?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/JSON-Driven%20Pipeline-facc15?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/UX-Interactive%20Editing-a855f7?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/ATS-Optimization-22c55e?style=for-the-badge&labelColor=020617"> </p>
+
 ---
 
 ## 🏁 How to Run the Project
