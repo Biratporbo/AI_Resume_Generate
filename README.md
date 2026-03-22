@@ -171,14 +171,43 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 ---
 
 ## 🏁 How to Run the Project
-### Backend Setup
-cd backend
-mvn spring-boot:run
+<p align="center"> <img src="https://img.shields.io/badge/Setup-Quick%20Start-0ff?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Environment-Local%20Development-a855f7?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Mode-Full%20Stack-22c55e?style=for-the-badge&labelColor=020617"> </p>
 
-### Frontend Setup
+### ⚙️ Backend Setup
+```Bash
+# Navigate to backend
+cd backend
+
+# Run Spring Boot application
+mvn spring-boot:run
+```
+
+### 🎨 Frontend Setup
+```Bash
+# Navigate to frontend
 cd frontend
+
+# Install dependencies
 npm install
+
+# Start development server
 npm start
+```
+
+### 🚀 Run Flow
+
+[![](https://mermaid.ink/img/pako:eNpdkctqwzAQRX9FzNoJfsgPaVGI84BCCyWlm9peCEtxTGLJqDJtagz9jm76i_2EKnaSRbXSmXvvDCP1UCougMLuqN7LPdMGPWxziexZZM_mzCkrD0LyAs1mdyjNFk_3aNtJWcuqmIzLi3GjlTQ35yp7-W9MR2GdLZWUojTItrooq0mZYD3CJlu0LdoKxk_o9-f7qwAHKl1zoEZ3woFG6IadEfpzLAezF43IgdorZ_qQQy4Hm2mZfFWquca06qo90B07vlnqWs6MWNWs0qy5VbVdQuil6qQB6rkhHrsA7eEDaBLO_SSKI4L9IMQYJw6crMuPbJkEhLiEJCSKvcGBz3GuO49814uxF5EQu9gNAwcEr43Sj9PTjz8w_AHwg3aY?type=png)](https://mermaid.live/edit#pako:eNpdkctqwzAQRX9FzNoJfsgPaVGI84BCCyWlm9peCEtxTGLJqDJtagz9jm76i_2EKnaSRbXSmXvvDCP1UCougMLuqN7LPdMGPWxziexZZM_mzCkrD0LyAs1mdyjNFk_3aNtJWcuqmIzLi3GjlTQ35yp7-W9MR2GdLZWUojTItrooq0mZYD3CJlu0LdoKxk_o9-f7qwAHKl1zoEZ3woFG6IadEfpzLAezF43IgdorZ_qQQy4Hm2mZfFWquca06qo90B07vlnqWs6MWNWs0qy5VbVdQuil6qQB6rkhHrsA7eEDaBLO_SSKI4L9IMQYJw6crMuPbJkEhLiEJCSKvcGBz3GuO49814uxF5EQu9gNAwcEr43Sj9PTjz8w_AHwg3aY)
+
+
+### ⚡ Quick Notes
+<p align="center"> <img src="https://img.shields.io/badge/Backend-Port%208080-6DB33F?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Frontend-Port%203000-61DAFB?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Requirement-Java%20%2B%20NodeJS-f97316?style=for-the-badge&labelColor=020617"> </p>
+
+### 💡 Pro Tip
+```Dif
++ Run backend first to avoid API connection errors
++ Ensure Node.js & Java are installed
++ Use separate terminals for frontend & backend
+```
 
 ---
 
