@@ -106,18 +106,64 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 
 ## ⚙️ How It Works
 
-1. User enters description
-→ Backend converts it into structured JSON
+<p align="center"> <img src="https://img.shields.io/badge/Workflow-AI%20Pipeline-0ff?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Experience-Interactive-a855f7?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Output-ATS%20Optimized-22c55e?style=for-the-badge&labelColor=020617"> </p>
 
-2. JSON populates the resume form
+### 🧠 Intelligent Resume Pipeline
 
-3. User edits details if needed
+[![](https://mermaid.ink/img/pako:eNptU8tu2zAQ_JUFTzZqx4ofscJDAKuuARdtbFhxD4UuhLRViEqkuqSCOob_vSspSg-ODoLImd2dGYpnkdoMhRQO_9RoUlxrlZMqEwP8VIq8TnWljIcjKAdHhwSDDVnj0WTDa9amYR1QpVywvYajBo4r0iaHyFoPq_0HrLhlIb3oFOGbOiFdc1bbhsTvPdkXnSG5a866G-ctqRwT0xGO44eHjYQv7IBgjS4lXXltDUzgWBVWZSzf1SV27A2zIwn7XfwEE1XpCbXgJEeDpDzC7sD7RhWn1_cJEdfEEn6oQmcN5dBE63wHxgyutpLtmazRXlYeBl_j3SO49BlLNey7rLbjrk_sqU59Tdgqq6xxCINOI2uOU0s4_N97HcnWMbY2Ct-3i8dvTsim6Bw329W-qn0vuUulFdJP6RNg6Ch513DKfKrwCeI6z9kRp-bESOSkMyFZJY5EiVSqZinOTXkiPJvCREj-zBT9TkRiLlzD5_PT2rIvI1vnz0L-UoXjVV01ub39ie-71Ar4bGvjhVzOw7aJkGfxV8jpbH6zuJ1Ow9k0DO6Xi3AxEichZ3c34XJ-H94GwewuDMLwMhKv7diAAeZgpjmr790VaG_C5R9Kfflh?type=png)](https://mermaid.live/edit#pako:eNptU8tu2zAQ_JUFTzZqx4ofscJDAKuuARdtbFhxD4UuhLRViEqkuqSCOob_vSspSg-ODoLImd2dGYpnkdoMhRQO_9RoUlxrlZMqEwP8VIq8TnWljIcjKAdHhwSDDVnj0WTDa9amYR1QpVywvYajBo4r0iaHyFoPq_0HrLhlIb3oFOGbOiFdc1bbhsTvPdkXnSG5a866G-ctqRwT0xGO44eHjYQv7IBgjS4lXXltDUzgWBVWZSzf1SV27A2zIwn7XfwEE1XpCbXgJEeDpDzC7sD7RhWn1_cJEdfEEn6oQmcN5dBE63wHxgyutpLtmazRXlYeBl_j3SO49BlLNey7rLbjrk_sqU59Tdgqq6xxCINOI2uOU0s4_N97HcnWMbY2Ct-3i8dvTsim6Bw329W-qn0vuUulFdJP6RNg6Ch513DKfKrwCeI6z9kRp-bESOSkMyFZJY5EiVSqZinOTXkiPJvCREj-zBT9TkRiLlzD5_PT2rIvI1vnz0L-UoXjVV01ub39ie-71Ar4bGvjhVzOw7aJkGfxV8jpbH6zuJ1Ow9k0DO6Xi3AxEichZ3c34XJ-H94GwewuDMLwMhKv7diAAeZgpjmr790VaG_C5R9Kfflh)
 
-4. Resume is rendered in clean UI
+### 🧩 Step-by-Step Flow
 
-5. Optionally: Upload Resume → ATS Score
+<table> <tr> <td width="50%">
+    
+### 📝 Step 01 — Input
+```Dif
++ User enters personal/professional details
++ Natural language input supported
++ No strict formatting required
+```
+</td> <td width="50%">
 
-6. AI suggests improvements + missing skills
+### 🧠 Step 02 — AI Structuring
+```Dif
++ Backend processes input
++ Converts into structured JSON schema
++ Organizes resume sections intelligently
+```
+</td> </tr> <tr> <td width="50%">
+
+### 🎨 Step 03 — UI Population
+```Dif
++ JSON auto-fills resume builder
++ Sections mapped dynamically
++ Instant preview generation
+```
+</td> <td width="50%">
+
+### ✏️ Step 04 — Customization
+```Dif
++ User edits any section
++ Fine-tunes content easily
++ Real-time updates in UI
+```
+</td> </tr> <tr> <td width="50%">
+
+### 📄 Step 05 — Resume Output
+```Dif
++ Clean, professional layout
++ ATS-friendly formatting
++ Ready for export/use
+```
+</td> <td width="50%">
+    
+### 🔍 Step 06 — ATS Analysis
+```Dif
++ Upload existing resume (optional)
++ AI evaluates ATS score
++ Detects missing skills & keywords
++ Suggests targeted improvements
+```
+</td> </tr> </table>
 
 ---
 
