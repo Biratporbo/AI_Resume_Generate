@@ -58,32 +58,21 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 
 ## 🏗️ Tech Stack
 
+<p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=Modern+AI+Powered+Stack;Built+for+Scalability+%26+Performance;Clean+Architecture+%2B+Smart+UX" /> </p>
+
 > ### 🎨 Frontend
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-![DaisyUI](https://img.shields.io/badge/DaisyUI-purple?style=flat-square)
-![Axios](https://img.shields.io/badge/Axios-blueviolet?style=flat-square)
-
+<p align="center"> <img src="https://img.shields.io/badge/React-Gradient-0f2027?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=000000"> <img src="https://img.shields.io/badge/TailwindCSS-UI%20Engine-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=0f172a"> <img src="https://img.shields.io/badge/JavaScript-Core-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=1a1a1a"> </p> <p align="center"> <img src="https://img.shields.io/badge/DaisyUI-Component%20Kit-7C3AED?style=for-the-badge&labelColor=0f172a"> <img src="https://img.shields.io/badge/Axios-HTTP%20Client-9333EA?style=for-the-badge&labelColor=0f172a"> </p>
 
 > ### 🚀 Backend
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
-
-![Ollama](https://img.shields.io/badge/Ollama-black?style=flat-square)
-![DeepSeek](https://img.shields.io/badge/DeepSeek-purple?style=flat-square)
-![OpenAI](https://img.shields.io/badge/OpenAI-darkgreen?style=flat-square&logo=openai)
+<p align="center"> <img src="https://img.shields.io/badge/SpringBoot-Backend%20Core-6DB33F?style=for-the-badge&logo=springboot&logoColor=white&labelColor=0b1f13"> <img src="https://img.shields.io/badge/Java-Enterprise-007396?style=for-the-badge&logo=java&logoColor=white&labelColor=0f172a"> </p> <p align="center"> <img src="https://img.shields.io/badge/Ollama-Local%20LLM-111111?style=for-the-badge"> <img src="https://img.shields.io/badge/DeepSeek-AI%20Model-6D28D9?style=for-the-badge"> <img src="https://img.shields.io/badge/OpenAI-Cloud%20AI-412991?style=for-the-badge&logo=openai"> </p>
 
 > ### 🗃️ Database
 
-![JSON Database](https://img.shields.io/badge/JSON%20Database-000000?style=for-the-badge&logo=json&logoColor=white)
+<p align="center"> <img src="https://img.shields.io/badge/JSON-Document%20Store-000000?style=for-the-badge&logo=json&logoColor=white&labelColor=111827"> </p>
 
 > ### ⚙️ Tools
 
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+<p align="center"> <img src="https://img.shields.io/badge/IntelliJ-IDE-000000?style=for-the-badge&logo=intellijidea&logoColor=white&labelColor=1a1a1a"> <img src="https://img.shields.io/badge/Vite-Bundler-646CFF?style=for-the-badge&logo=vite&logoColor=white&labelColor=1a1a1a"> <img src="https://img.shields.io/badge/Postman-API%20Testing-FF6C37?style=for-the-badge&logo=postman&logoColor=white&labelColor=1a1a1a"> </p>
 
 ---
 
