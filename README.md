@@ -11,6 +11,7 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 ### 🧠 AI Resume Generation Engine
 <p align="center"> <img src="https://img.shields.io/badge/AI-Content%20Generation-black?style=for-the-badge&logo=openai"> <img src="https://img.shields.io/badge/Output-Structured%20Resume-success?style=for-the-badge"> </p>
 
+```Diff
 + Describe yourself in natural language
 + AI transforms input into a professional resume
 + Generates:
@@ -20,28 +21,34 @@ This project transforms a simple user prompt into a fully structured JSON-based 
     → Education
     → Projects
 + Clean, ATS-friendly structure
+```
 
 ### 🔍 ATS Score Analyzer
 <p align="center"> <img src="https://img.shields.io/badge/ATS-Score%20Analysis-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/PDF-Parsing-critical?style=for-the-badge"> </p>
 
+```Diff
 + Upload resume (PDF format)
 + AI evaluates ATS compatibility score
 + Extracts and analyzes key skills
 + Identifies missing keywords
 + Suggests targeted improvements
+```
 
 ### 🎨 Interactive Resume Builder UI
 <p align="center"> <img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react"> <img src="https://img.shields.io/badge/UI-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css"> <img src="https://img.shields.io/badge/Components-DaisyUI-purple?style=for-the-badge"> </p>
 
+```Diff
 + Auto-filled resume fields using AI
 + Fully editable form interface
 + Live preview experience
 + Responsive & modern UI design
 + Smooth UX with component-based architecture
+```
 
 ### ⚙️ AI-Powered Backend System
 <p align="center"> <img src="https://img.shields.io/badge/Backend-Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot"> <img src="https://img.shields.io/badge/AI-Spring%20AI-orange?style=for-the-badge"> </p>
 
+```Diff
 + Built with Spring Boot + Spring AI
 + Multi-LLM integration:
     → Ollama
@@ -50,6 +57,7 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 + Resume storage & regeneration
 + JSON-based resume schema processing
 + Intelligent prompt orchestration layer
+```
 
 ### 🌟 System Capabilities Overview
 <p align="center"> <img src="https://img.shields.io/badge/Smart-AI%20Driven-critical?style=for-the-badge"> <img src="https://img.shields.io/badge/Fast-RealTime-success?style=for-the-badge"> <img src="https://img.shields.io/badge/Scalable-Architecture-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/UX-Modern%20Design-blueviolet?style=for-the-badge"> </p>
@@ -117,7 +125,7 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 <table> <tr> <td width="50%">
     
 ### 📝 Step 01 — Input
-```Dif
+```Diff
 + User enters personal/professional details
 + Natural language input supported
 + No strict formatting required
@@ -125,7 +133,7 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 </td> <td width="50%">
 
 ### 🧠 Step 02 — AI Structuring
-```Dif
+```Diff
 + Backend processes input
 + Converts into structured JSON schema
 + Organizes resume sections intelligently
@@ -133,7 +141,7 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 </td> </tr> <tr> <td width="50%">
 
 ### 🎨 Step 03 — UI Population
-```Dif
+```Diff
 + JSON auto-fills resume builder
 + Sections mapped dynamically
 + Instant preview generation
@@ -141,7 +149,7 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 </td> <td width="50%">
 
 ### ✏️ Step 04 — Customization
-```Dif
+```Diff
 + User edits any section
 + Fine-tunes content easily
 + Real-time updates in UI
@@ -149,7 +157,7 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 </td> </tr> <tr> <td width="50%">
 
 ### 📄 Step 05 — Resume Output
-```Dif
+```Diff
 + Clean, professional layout
 + ATS-friendly formatting
 + Ready for export/use
@@ -157,7 +165,7 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 </td> <td width="50%">
     
 ### 🔍 Step 06 — ATS Analysis
-```Dif
+```Diff
 + Upload existing resume (optional)
 + AI evaluates ATS score
 + Detects missing skills & keywords
@@ -203,7 +211,7 @@ npm start
 <p align="center"> <img src="https://img.shields.io/badge/Backend-Port%208080-6DB33F?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Frontend-Port%203000-61DAFB?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Requirement-Java%20%2B%20NodeJS-f97316?style=for-the-badge&labelColor=020617"> </p>
 
 ### 💡 Pro Tip
-```Dif
+```Diff
 + Run backend first to avoid API connection errors
 + Ensure Node.js & Java are installed
 + Use separate terminals for frontend & backend
@@ -212,11 +220,57 @@ npm start
 ---
 
 ## 🤝 Contributions
+<p align="center"> <img src="https://img.shields.io/badge/Contributions-Welcome-0ff?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Open%20Source-Community%20Driven-a855f7?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/PRs-Encouraged-22c55e?style=for-the-badge&labelColor=020617"> </p>
 
-Pull requests are welcome!
+### 💡 Get Involved
+```Diff
++ Fork the repository
++ Create your feature branch
++ Make your changes
++ Submit a pull request 🚀
+```
 
-Feel free to open issues for new feature suggestions or bug reports.
+### 🐛 Found a Bug or Have an Idea?
+```Diff
++ Open an issue with clear details
++ Suggest new features or improvements
++ Help enhance AI capabilities & UI/UX
+```
+
+### 🌟 Contribution Goals
+<p align="center"> <img src="https://img.shields.io/badge/Code-Quality-facc15?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/AI-Enhancements-a855f7?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/UI-Experience-0ea5e9?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Performance-Optimization-22c55e?style=for-the-badge&labelColor=020617"> </p>
+
+### ⚡ Contribution Flow
+[![](https://mermaid.ink/img/pako:eNo9kcFOwzAMhl8l8oFTh9ou7ZockFi3nZhAO9LuEK1eW61JSpYyYNoDcOEVeEUegSwb-GT78-9flo-w0RUCh22nD5tGGEseVqUiLu6LhTY7ssJer8lodEemRW5QWCRTI9SmWV_Gpp7lxVLskOSNUDXuryj3aFbkWsrWktw5XcnMk3nx2KMiT0PXOZuXAff2yueeL4oVvrZ4IDdkiaZG8vP99bmGAGrTVsCtGTAAiUaKcwnHs7YE26DEErhLK2F2JZTq5DS9UM9ayz-Z0UPdAN-Kbu-qoa_cYbNW1EbI_65BVaHJ9aAs8ChMMr8F-BHegGfJbZylk5TReJxQSh18d1Nx6tpszFjIWMbSSXQK4MP7hrdpHEYTGqUsoSENk3EAWLVWm-XlBf4Tp1-nSHlk?type=png)](https://mermaid.live/edit#pako:eNo9kcFOwzAMhl8l8oFTh9ou7ZockFi3nZhAO9LuEK1eW61JSpYyYNoDcOEVeEUegSwb-GT78-9flo-w0RUCh22nD5tGGEseVqUiLu6LhTY7ssJer8lodEemRW5QWCRTI9SmWV_Gpp7lxVLskOSNUDXuryj3aFbkWsrWktw5XcnMk3nx2KMiT0PXOZuXAff2yueeL4oVvrZ4IDdkiaZG8vP99bmGAGrTVsCtGTAAiUaKcwnHs7YE26DEErhLK2F2JZTq5DS9UM9ayz-Z0UPdAN-Kbu-qoa_cYbNW1EbI_65BVaHJ9aAs8ChMMr8F-BHegGfJbZylk5TReJxQSh18d1Nx6tpszFjIWMbSSXQK4MP7hrdpHEYTGqUsoSENk3EAWLVWm-XlBf4Tp1-nSHlk)
+
+### ❤️ Final Note
+
+>Contributions, ideas, and feedback are what make this project grow.
+
+>Let’s build something amazing together 🚀
 
 ---
 
-![License](https://img.shields.io/badge/License-MIT-brightgreen?style=for-the-badge)
+## 📜 License
+<p align="center"> <img src="https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Open%20Source-Free%20to%20Use-0ea5e9?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Usage-Personal%20%26%20Commercial-a855f7?style=for-the-badge&labelColor=020617"> </p>
+
+### 📄 License Overview
+```Diff
++ This project is licensed under the MIT License
++ You are free to use, modify, and distribute this software
++ Suitable for personal and commercial use
+```
+
+### ⚖️ Permissions
+<p align="center"> <img src="https://img.shields.io/badge/Use-Allowed-22c55e?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Modify-Allowed-0ff?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Distribute-Allowed-facc15?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Private%20Use-Allowed-a855f7?style=for-the-badge&labelColor=020617"> </p>
+
+### ⚠️ Disclaimer
+```Diff
+- This software is provided "as is"
+- No warranty or liability is included
+```
+
+### 🔗 Full License
+```Markdown
+Refer to the LICENSE file for complete details.
+```
