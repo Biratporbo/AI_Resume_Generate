@@ -47,15 +47,7 @@ Prompt processing using JSON resume schema
 
 ## 🏗️ Tech Stack
 
-### 🚀 Backend
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
-
-![Ollama](https://img.shields.io/badge/Ollama-black?style=flat-square)
-![DeepSeek](https://img.shields.io/badge/DeepSeek-purple?style=flat-square)
-![OpenAI](https://img.shields.io/badge/OpenAI-darkgreen?style=flat-square&logo=openai)
-
-### 🎨 Frontend
+> ### 🎨 Frontend
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
@@ -63,12 +55,24 @@ Prompt processing using JSON resume schema
 ![DaisyUI](https://img.shields.io/badge/DaisyUI-purple?style=flat-square)
 ![Axios](https://img.shields.io/badge/Axios-blueviolet?style=flat-square)
 
-### ⚙️ Tools
+
+> ### 🚀 Backend
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=java&logoColor=white)
+
+![Ollama](https://img.shields.io/badge/Ollama-black?style=flat-square)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-purple?style=flat-square)
+![OpenAI](https://img.shields.io/badge/OpenAI-darkgreen?style=flat-square&logo=openai)
+
+> ### 🗃️ Database
+
+![JSON Database](https://img.shields.io/badge/JSON%20Database-000000?style=for-the-badge&logo=json&logoColor=white)
+
+> ### ⚙️ Tools
 
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![JSON Database](https://img.shields.io/badge/JSON%20Database-000000?style=for-the-badge&logo=json&logoColor=white)
 
 ---
 
