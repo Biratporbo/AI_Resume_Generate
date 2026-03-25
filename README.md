@@ -86,7 +86,15 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 
 ## 🧠 AI Prompt Format (Used for Resume Generation)
 
-"I am a Java Developer with 2 years of experience in building scalable backend applications using Spring Boot and Microservices. I have expertise in MySQL, and MongoDB. I am proficient in AWS and Docker for cloud deployments. I have worked at ABC Tech as a Software Engineer . I hold a Bachelor's degree in Computer Application. I have built an Expense Management System using Spring Boot and React.js. I am AWS Certified Solutions Architect and passionate about open-source contributions."
+```Terminal
+I am a Java Developer with 2 years of experience in building scalable backend applications using Spring Boot and microservices architecture. I have hands-on expertise in MySQL and MongoDB for data management.
+
+I am proficient in AWS and Docker, enabling efficient cloud deployment and containerized application development. I have professional experience working as a Software Engineer at ABC Tech.
+
+I hold a Bachelor's degree in Computer Applications and have built projects such as an Expense Management System using Spring Boot and React.js.
+
+I am an AWS Certified Solutions Architect and have a strong interest in open-source contributions and continuous learning.
+```
 
 ---
 
