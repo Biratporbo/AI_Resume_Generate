@@ -145,5 +145,3 @@ The application communicates with a backend API through `src/api/ResumeService.j
 ## 📄 License
 
 This project is part of a professional portfolio and is provided as-is for demonstration purposes.
-
-
