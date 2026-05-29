@@ -268,7 +268,3 @@ For detailed API documentation and usage examples, refer to:
 This project is part of a professional portfolio and is provided as-is for demonstration purposes.
 
 ---
-
-## 📞 Support
-
-For issues, questions, or feature requests, please create an issue in the repository or contact the development team.
