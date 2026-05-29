@@ -57,17 +57,17 @@ src/
 
 ## 🛣️ API Endpoints
 
-| Method | Endpoint | Description |
-| :--- | :--- | :--- |
-| **POST** | `/api/resumes` | Create a new resume from request data |
-| **GET** | `/api/resumes/{id}` | Retrieve a specific resume |
-| **PUT** | `/api/resumes/{id}` | Update an existing resume |
-| **DELETE** | `/api/resumes/{id}` | Delete a resume |
-| **POST** | `/api/resumes/ats-score` | Analyze and score resume ATS compatibility |
-| **GET** | `/api/templates` | List available resume templates |
-| **POST** | `/api/emails` | Generate professional cold email |
-| **POST** | `/api/resumes/optimize` | Optimize resume content using AI |
-| **GET** | `/api/health` | Health check endpoint |
+| Method     | Endpoint                 | Description                                |
+|:-----------|:-------------------------|:-------------------------------------------|
+| **POST**   | `/api/resumes`           | Create a new resume from request data      |
+| **GET**    | `/api/resumes/{id}`      | Retrieve a specific resume                 |
+| **PUT**    | `/api/resumes/{id}`      | Update an existing resume                  |
+| **DELETE** | `/api/resumes/{id}`      | Delete a resume                            |
+| **POST**   | `/api/resumes/ats-score` | Analyze and score resume ATS compatibility |
+| **GET**    | `/api/templates`         | List available resume templates            |
+| **POST**   | `/api/emails`            | Generate professional cold email           |
+| **POST**   | `/api/resumes/optimize`  | Optimize resume content using AI           |
+| **GET**    | `/api/health`            | Health check endpoint                      |
 
 ---
 
