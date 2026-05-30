@@ -1,4 +1,4 @@
-
+<div align="center">
 
    # 📄 Resume Maker - Backend API
 
@@ -9,7 +9,7 @@
    ![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
    ![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-
+</div>
 
 ---
 
