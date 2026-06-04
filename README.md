@@ -21,10 +21,11 @@ This project transforms a simple user prompt into a fully structured JSON-based 
     → Education
     → Projects
 + Clean, ATS-friendly structure
++ Real-time resume preview
 ```
 
-### 🔍 ATS Score Analyzer
-<p align="center"> <img src="https://img.shields.io/badge/ATS-Score%20Analysis-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/PDF-Parsing-critical?style=for-the-badge"> </p>
+### 🔍 ATS Score Analyzer & Templates
+<p align="center"> <img src="https://img.shields.io/badge/ATS-Score%20Analysis-blue?style=for-the-badge"> <img src="https://img.shields.io/badge/PDF-Parsing-critical?style=for-the-badge"> <img src="https://img.shields.io/badge/Templates-Professional-purple?style=for-the-badge"> </p>
 
 ```Diff
 + Upload resume (PDF format)
@@ -32,6 +33,22 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 + Extracts and analyzes key skills
 + Identifies missing keywords
 + Suggests targeted improvements
++ Browse 10+ ATS-optimized resume templates
++ Single & two-column layout options
++ Easy template preview & selection
+```
+
+### 💼 Career Development Toolkit
+<p align="center"> <img src="https://img.shields.io/badge/Career-Tools-teal?style=for-the-badge"> <img src="https://img.shields.io/badge/Email-Generator-orange?style=for-the-badge"> <img src="https://img.shields.io/badge/Resources-Hub-pink?style=for-the-badge"> </p>
+
+```Diff
++ Cold Email Hub - Generate professional outreach emails
++ Internship Calendar - Track internship opportunities
++ Interview Preparation - Asked in interviews section
++ DSA Hub - Data structures & algorithms resources
++ System Design Guide - Architecture learning materials
++ Interview Material - Comprehensive prep resources
++ Guidelines - Best practices documentation
 ```
 
 ### 🎨 Interactive Resume Builder UI
@@ -43,20 +60,25 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 + Live preview experience
 + Responsive & modern UI design
 + Smooth UX with component-based architecture
++ Multiple page navigation
++ Toast notifications for user feedback
++ PDF export & print functionality
 ```
 
 ### ⚙️ AI-Powered Backend System
 <p align="center"> <img src="https://img.shields.io/badge/Backend-Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot"> <img src="https://img.shields.io/badge/AI-Spring%20AI-orange?style=for-the-badge"> </p>
 
 ```Diff
-+ Built with Spring Boot + Spring AI
++ Built with Spring Boot 3.5.14 + Spring AI 1.1.0
++ Java 21 for latest language features
 + Multi-LLM integration:
-    → Ollama
-    → DeepSeek
-    → ChatGPT APIs
+    → Ollama (Local)
+    → DeepSeek (API)
+    → ChatGPT APIs (Cloud)
 + Resume storage & regeneration
 + JSON-based resume schema processing
 + Intelligent prompt orchestration layer
++ REST API with Spring Actuator monitoring
 ```
 
 ### 🌟 System Capabilities Overview
@@ -64,15 +86,90 @@ This project transforms a simple user prompt into a fully structured JSON-based 
 
 ---
 
-## 🏗️ Tech Stack
+## 📁 Project Structure
+
+### 🎨 Frontend Architecture
+```
+resume_frontend/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx              # Navigation with responsive menu
+│   │   └── Resume.jsx              # Resume display component
+│   ├── pages/
+│   │   ├── Home.jsx                # Home page wrapper
+│   │   ├── LandingPage.jsx         # Hero section landing page
+│   │   ├── GenerateResume.jsx      # Resume creation interface
+│   │   ├── Resume.jsx              # Resume display page
+│   │   ├── ATSScore.jsx            # ATS score analyzer tool
+│   │   ├── ATSResumeTemplates.jsx  # Professional resume templates (10+)
+│   │   ├── ColdEmailHub.jsx        # Professional email generator
+│   │   ├── InternshipCalendar.jsx  # Internship opportunities tracking
+│   │   ├── About.jsx               # About platform page
+│   │   ├── Contact.jsx             # Contact form page
+│   │   ├── Services.jsx            # Services overview
+│   │   └── Root.jsx                # Root layout component
+│   ├── api/
+│   │   └── ResumeService.js        # API integration service
+│   ├── utils/                      # Utility functions
+│   ├── assets/                     # Static assets
+│   ├── App.css                     # App styles
+│   ├── index.css                   # Global styles
+│   └── main.jsx                    # React entry point
+├── package.json                    # Frontend dependencies
+├── tailwind.config.js              # Tailwind configuration
+├── vite.config.js                  # Vite bundler config
+└── README.md                       # Frontend documentation
+```
+
+### 🚀 Backend Architecture
+```
+resume-ai-backend/
+├── src/
+│   ├── main/
+│   │   ├── java/com/resume/backend/
+│   │   │   ├── ResumeAiBackendApplication.java    # Spring Boot entry point
+│   │   │   ├── ResumeRequest.java                 # Request DTO
+│   │   │   ├── controller/
+│   │   │   │   └── ResumeController.java          # REST API endpoints
+│   │   │   ├── service/
+│   │   │   │   ├── ResumeService.java             # Service interface
+│   │   │   │   └── ResumeServiceImpl.java          # Service implementation
+│   │   │   └── model/                             # Data models
+│   │   └── resources/
+│   │       ├── application.properties             # Spring configuration
+│   │       └── resume_prompt.txt                  # AI prompt template
+│   └── test/
+│       └── java/com/resume/backend/               # Unit tests
+├── pom.xml                                        # Maven configuration
+└── README.md                                      # Backend documentation
+```
+
+## 📄 Pages & Routes
+
+| Page | Route | Feature | Status |
+| :--- | :--- | :--- | :--- |
+| **Home** | `/` | Landing page with features overview | ✅ Live |
+| **Generate Resume** | `/generate-resume` | Create & customize resumes with AI | ✅ Live |
+| **ATS Score Checker** | `/atsscore` | Analyze resume ATS compatibility | ✅ Live |
+| **ATS Resume Templates** | `/atsresumetemplates` | 10+ professional templates | ✅ Live |
+| **Cold Email Hub** | `/coldemailhub` | Generate professional outreach emails | ✅ Live |
+| **Internship Calendar** | `/internship-calendar` | Track internship opportunities | ✅ Live |
+| **About** | `/about` | Platform mission & values | ✅ Live |
+| **Services** | `/services` | Service offerings overview | ✅ Live |
+| **Contact** | `/contact` | Contact & support form | ✅ Live |
+| **Asked in Interviews** | `/asked-in-interviews` | Interview preparation material | 📋 In Progress |
+| **DSA Hub** | `/dsa-hub` | Data structures & algorithms | 📋 In Progress |
+| **System Design** | `/system-design` | System design guide | 📋 In Progress |
+
+
 
 <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=Modern+AI+Powered+Stack;Built+for+Scalability+%26+Performance;Clean+Architecture+%2B+Smart+UX" /> </p>
 
 > ### 🎨 Frontend
-<p align="center"> <img src="https://img.shields.io/badge/React-Gradient-0f2027?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=000000"> <img src="https://img.shields.io/badge/TailwindCSS-UI%20Engine-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=0f172a"> <img src="https://img.shields.io/badge/JavaScript-Core-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=1a1a1a"> </p> <p align="center"> <img src="https://img.shields.io/badge/DaisyUI-Component%20Kit-7C3AED?style=for-the-badge&labelColor=0f172a"> <img src="https://img.shields.io/badge/Axios-HTTP%20Client-9333EA?style=for-the-badge&labelColor=0f172a"> </p>
+<p align="center"> <img src="https://img.shields.io/badge/React-19.2.0-0f2027?style=for-the-badge&logo=react&logoColor=61DAFB&labelColor=000000"> <img src="https://img.shields.io/badge/React%20Router-7.9.6-F37726?style=for-the-badge&labelColor=000000"> <img src="https://img.shields.io/badge/TailwindCSS-3.4.18-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white&labelColor=0f172a"> </p> <p align="center"> <img src="https://img.shields.io/badge/DaisyUI-5.5.5-7C3AED?style=for-the-badge&labelColor=0f172a"> <img src="https://img.shields.io/badge/Framer%20Motion-12.23.24-0055FF?style=for-the-badge&labelColor=0f172a"> <img src="https://img.shields.io/badge/Axios-1.13.2-9333EA?style=for-the-badge&labelColor=0f172a"> </p> <p align="center"> <img src="https://img.shields.io/badge/Lucide%20React-0.554.0-FF6B6B?style=for-the-badge&labelColor=0f172a"> <img src="https://img.shields.io/badge/jsPDF-3.0.4-EC1C24?style=for-the-badge&labelColor=0f172a"> <img src="https://img.shields.io/badge/React%20Hook%20Form-7.66.1-EC5990?style=for-the-badge&labelColor=0f172a"> <img src="https://img.shields.io/badge/React%20Hot%20Toast-2.6.0-FF6B6B?style=for-the-badge&labelColor=0f172a"> </p>
 
 > ### 🚀 Backend
-<p align="center"> <img src="https://img.shields.io/badge/SpringBoot-Backend%20Core-6DB33F?style=for-the-badge&logo=springboot&logoColor=white&labelColor=0b1f13"> <img src="https://img.shields.io/badge/Java-Enterprise-007396?style=for-the-badge&logo=java&logoColor=white&labelColor=0f172a"> </p> <p align="center"> <img src="https://img.shields.io/badge/Ollama-Local%20LLM-111111?style=for-the-badge"> <img src="https://img.shields.io/badge/DeepSeek-AI%20Model-6D28D9?style=for-the-badge"> <img src="https://img.shields.io/badge/OpenAI-Cloud%20AI-412991?style=for-the-badge&logo=openai"> </p>
+<p align="center"> <img src="https://img.shields.io/badge/Spring%20Boot-3.5.14-6DB33F?style=for-the-badge&logo=springboot&logoColor=white&labelColor=0b1f13"> <img src="https://img.shields.io/badge/Java-21-007396?style=for-the-badge&logo=java&logoColor=white&labelColor=0f172a"> <img src="https://img.shields.io/badge/Spring%20AI-1.1.0-6DB33F?style=for-the-badge&logoColor=white&labelColor=0b1f13"> </p> <p align="center"> <img src="https://img.shields.io/badge/Ollama-Local%20LLM-111111?style=for-the-badge"> <img src="https://img.shields.io/badge/DeepSeek-AI%20Model-6D28D9?style=for-the-badge"> <img src="https://img.shields.io/badge/OpenAI-Cloud%20AI-412991?style=for-the-badge&logo=openai"> <img src="https://img.shields.io/badge/Lombok-Code%20Gen-BC1623?style=for-the-badge"> </p>
 
 > ### 🗃️ Database
 
@@ -218,11 +315,155 @@ npm start
 ### ⚡ Quick Notes
 <p align="center"> <img src="https://img.shields.io/badge/Backend-Port%208080-6DB33F?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Frontend-Port%203000-61DAFB?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Requirement-Java%20%2B%20NodeJS-f97316?style=for-the-badge&labelColor=020617"> </p>
 
-### 💡 Pro Tip
+
+### 💡 Pro Tips
 ```Diff
 + Run backend first to avoid API connection errors
-+ Ensure Node.js & Java are installed
++ Ensure Java 21+ and Node.js 18+ are installed
 + Use separate terminals for frontend & backend
++ For local LLM: Start Ollama before backend
++ Check firewall settings if API calls fail
++ Use 'npm run build' for production deployment
++ Monitor backend logs for AI provider issues
+```
+
+### 🐛 Troubleshooting
+
+| Issue | Solution |
+| :--- | :--- |
+| API connection refused | Ensure backend is running on port 8080 |
+| AI responses slow | Check LLM provider (Ollama/OpenAI) status |
+| PDF export failing | Verify `html-to-image` dependency |
+| Resume not generating | Check backend logs for Spring AI errors |
+| CORS errors | Verify CORS configuration in Spring Boot |
+
+---
+
+## 🔌 API Documentation
+
+### Main Endpoints
+
+**Resume Generation**
+```bash
+POST /api/resume/generate
+Content-Type: application/json
+
+Request:
+{
+  "prompt": "I am a Java developer with 2 years experience...",
+  "aiProvider": "ollama"  // or "deepseek", "openai"
+}
+
+Response:
+{
+  "id": "resume-123",
+  "summary": "...",
+  "skills": [...],
+  "experience": [...],
+  "education": [...],
+  "projects": [...]
+}
+```
+
+**ATS Analysis**
+```bash
+POST /api/resume/analyze-ats
+Content-Type: multipart/form-data
+
+FormData:
+- file: resume.pdf
+- analyzeMode: "detailed"
+
+Response:
+{
+  "score": 85,
+  "requiredSkills": [...],
+  "missingKeywords": [...],
+  "improvements": [...]
+}
+```
+
+### Frontend Services
+
+**ResumeService.js**
+```javascript
+// Generate resume from prompt
+generateResume(prompt, provider)
+
+// Analyze ATS score
+analyzeATSScore(file)
+
+// Fetch templates
+getResumeTemplates()
+
+// Export resume to PDF
+exportToPDF(resumeData)
+```
+
+---
+
+## 📊 Project Statistics
+
+### Frontend (React + Vite)
+- **Total Pages:** 12 components
+- **Routes:** 10 active + 3 in progress
+- **Dependencies:** 16 npm packages
+- **Total Size:** ~5MB (production build)
+- **Languages:** JavaScript (JSX)
+- **Styling:** TailwindCSS + DaisyUI
+
+### Backend (Spring Boot)
+- **Controllers:** 1 (ResumeController)
+- **Services:** 2 (ResumeService, ResumeServiceImpl)
+- **Models:** Extensible entity structure
+- **API Endpoints:** RESTful architecture
+- **Build System:** Maven 3.x
+- **Java Version:** 21
+- **Spring Boot Version:** 3.5.14
+
+---
+
+## 🌐 Deployment Ready
+
+### Production Build
+
+**Frontend:**
+```bash
+npm run build
+# Output: resume_frontend/dist/
+
+# Serve with any static server:
+# - Netlify
+# - Vercel
+# - GitHub Pages
+# - Nginx
+```
+
+**Backend:**
+```bash
+mvn clean package
+# Creates: resume-ai-backend/target/*.jar
+
+# Run JAR:
+java -jar resume-ai-backend-0.0.1-SNAPSHOT.jar
+
+# Docker deployment ready
+```
+
+### Environment Variables
+
+**Backend:**
+```env
+SPRING_AI_OLLAMA_BASE_URL=http://localhost:11434
+SPRING_AI_OPENAI_API_KEY=your-key-here
+SPRING_AI_DEEPSEEK_API_KEY=your-key-here
+SERVER_PORT=8080
+```
+
+**Frontend:**
+```env
+VITE_API_URL=https://api.yourdomain.com
+VITE_API_TIMEOUT=10000
 ```
 
 ---
