@@ -144,6 +144,8 @@ resume-ai-backend/
 └── README.md                                      # Backend documentation
 ```
 
+---
+
 ## 📄 Pages & Routes
 
 | Page | Route | Feature | Status |
@@ -161,7 +163,7 @@ resume-ai-backend/
 | **DSA Hub** | `/dsa-hub` | Data structures & algorithms | 📋 In Progress |
 | **System Design** | `/system-design` | System design guide | 📋 In Progress |
 
-
+---
 
 <p align="center"> <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=22&duration=3000&color=00F7FF&center=true&vCenter=true&width=600&lines=Modern+AI+Powered+Stack;Built+for+Scalability+%26+Performance;Clean+Architecture+%2B+Smart+UX" /> </p>
 
