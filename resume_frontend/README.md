@@ -154,6 +154,8 @@ This project is part of a professional portfolio and is provided as-is for demon
 - No warranty or liability is included
 ```
 
+---
+
 <div align="center">
     ❤️ Created by Biratporbo
 </div>
