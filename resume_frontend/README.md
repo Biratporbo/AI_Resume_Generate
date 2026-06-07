@@ -148,7 +148,12 @@ This project is part of a professional portfolio and is provided as-is for demon
 
 ---
 
-### ⚠️ Disclaimer
+## ⚖️ Permissions
+<p align="center"> <img src="https://img.shields.io/badge/Use-Allowed-22c55e?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Modify-Allowed-0ff?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Distribute-Allowed-facc15?style=for-the-badge&labelColor=020617"> <img src="https://img.shields.io/badge/Private%20Use-Allowed-a855f7?style=for-the-badge&labelColor=020617"> </p>
+
+---
+
+## ⚠️ Disclaimer
 ```Diff
 - This software is provided "as is"
 - No warranty or liability is included
