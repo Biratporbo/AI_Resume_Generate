@@ -278,7 +278,11 @@ This project is part of a professional portfolio and is provided as-is for demon
 
 ---
 
-
+## ⚠️ Disclaimer
+```Diff
+- This software is provided "as is"
+- No warranty or liability is included
+```
 
 ---
 
