@@ -286,6 +286,4 @@ This project is part of a professional portfolio and is provided as-is for demon
 
 ---
 
-<div align="center">
-    ❤️ Created by Biratporbo
-</div>
+
