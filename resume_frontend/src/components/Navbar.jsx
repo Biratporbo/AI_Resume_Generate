@@ -81,12 +81,12 @@ function Navbar() {
                       </li>
                       <li>
                         <Link
-                            to={"/asked-in-interviews"}
+                            to={"/ultimate-developer-playlists"}
                             onClick={closeMenu}
                             className="flex items-center px-3 py-2 hover:bg-fuchsia-500/10 rounded-md transition-all mt-1"
                         >
                         <span className="text-fuchsia-300 font-medium text-sm">
-                          Asked in Interviews
+                          Ultimate Developer Playlists
                         </span>
                         </Link>
                       </li>
@@ -234,12 +234,12 @@ function Navbar() {
                     </li>
                     <li className="mt-1">
                       <Link
-                          to={"/asked-in-interviews"}
+                          to={"/ultimate-developer-playlists"}
                           onClick={closeMenu}
                           className="flex items-center px-3 py-2 hover:bg-gradient-to-r hover:from-purple-500/20 hover:to-fuchsia-500/10 rounded-lg transition-all duration-300 group/link"
                       >
                       <span className="text-fuchsia-300 font-medium text-sm group-hover/link:text-fuchsia-200 transition-colors">
-                        Asked in Interviews
+                        Ultimate Developer Playlists
                       </span>
                       </Link>
                     </li>
