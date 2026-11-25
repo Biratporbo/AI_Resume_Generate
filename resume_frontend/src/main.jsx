@@ -12,6 +12,7 @@ import GenerateResume from "./pages/GenerateResume";
 import InternshipCalendar from "./pages/InternshipCalendar";
 import PlacementRoadmap from "./pages/PlacementRoadmap";
 import UltimateDeveloperPlaylists from "./pages/UltimateDeveloperPlaylists";
+import GitHubRepos from "./pages/GitHubRepos";
 import ATSResumeTemplates from "./pages/ATSResumeTemplates";
 import ColdEmailHub from "./pages/ColdEmailHub";
 import { Toaster } from "react-hot-toast";
@@ -31,6 +32,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="internship-calendar" element={<InternshipCalendar />} />
         <Route path="placement-roadmap" element={<PlacementRoadmap />} />
         <Route path="ultimate-developer-playlists" element={<UltimateDeveloperPlaylists />} />
+        <Route path="github-repos" element={<GitHubRepos />} />
         <Route path="atsresumetemplates" element={<ATSResumeTemplates />} />
         <Route path="coldemailhub" element={<ColdEmailHub />} />
       </Route>
